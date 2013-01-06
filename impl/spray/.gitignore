@@ -1,0 +1,9 @@
+target/
+project/target
+.classpath
+.scala_dependencies
+.cache
+.project
+.idea
+.idea_modules
+.history
