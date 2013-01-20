@@ -1,0 +1,8 @@
+/static StaticR Static getStatic
+
+/favicon.ico FaviconR GET
+/robots.txt RobotsR GET
+
+/ HomeR GET POST
+
+/power/#Integer/#Integer PowerR GET

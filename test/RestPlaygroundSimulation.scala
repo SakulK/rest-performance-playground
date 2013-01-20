@@ -22,5 +22,5 @@ class RestPlaygroundSimulation extends Simulation {
 			exec(powerRequest)
 		}
 
-	setUp(scn.users(10000).protocolConfig(httpConf))
+	setUp(scn.users(1000).protocolConfig(httpConf))
 }
