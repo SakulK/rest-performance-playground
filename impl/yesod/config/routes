@@ -5,4 +5,4 @@
 
 / HomeR GET POST
 
-/power/#Integer/#Integer PowerR GET
+/power/#Int/#Int PowerR GET
