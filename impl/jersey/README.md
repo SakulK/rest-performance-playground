@@ -7,6 +7,6 @@ First build the project with:
 
 `mvn assembly:assembly`
 
-Then to run the project:
+Then to run the application for testing:
 
 `java -jar target/jersey-1.0-SNAPSHOT-jar-with-dependencies.jar`

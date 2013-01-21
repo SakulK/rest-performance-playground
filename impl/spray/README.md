@@ -3,8 +3,10 @@
 
 [SBT](http://www.scala-sbt.org/) is used to build this project
 
-To run it use the following command:
+First build the project with:
 
-`sbt run`
+`sbt assembly`
 
-TODO: change this to build + run to avoid any sbt overhead
+Then to run the application for testing:
+
+`java -jar target/spray-impl.jar`
