@@ -5,7 +5,7 @@ import spray.httpx.SprayJsonSupport
 object Boot extends App with SimpleRoutingApp with DefaultJsonProtocol with SprayJsonSupport {
 	implicit val resultFormat = jsonFormat1(Result)
 
-	startServer(interface = "localhost", port = 8080) {
+	startServer(interface = "0.0.0.0", port = 8080) {
 		path("power" / IntNumber / IntNumber) { (base, exponent) =>
 			get {
 				complete {
