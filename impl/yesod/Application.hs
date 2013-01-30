@@ -30,10 +30,7 @@ makeApplication :: AppConfig DefaultEnv Extra -> IO Application
 makeApplication conf = do
     foundation <- makeFoundation conf
     app <- toWaiAppPlain foundation
-    return $ logWare app
-  where
-    logWare   = if development then logStdoutDev
-                               else logStdout
+    return $ app
 
 makeFoundation :: AppConfig DefaultEnv Extra -> IO App
 makeFoundation conf = do
