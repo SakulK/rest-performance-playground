@@ -7,6 +7,4 @@ function power(req, res) {
 var server = restify.createServer();
 server.get('/power/:base/:exp', power);
 
-server.listen(8080, function() {
-    console.log('%s listening at %s', server.name, server.url);
-});
+server.listen(8080);

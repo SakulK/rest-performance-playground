@@ -1,12 +1,9 @@
 {
-	"name": "nodejs-restify",
+	"name": "nodejs",
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
 		"start": "node app"
-	},
-	"dependencies": {
-		"restify": "*"
 	},
 	"engines": {
 		"node": ">=0.8.18"
