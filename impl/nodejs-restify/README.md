@@ -9,4 +9,4 @@ First download the dependencies using:
 
 And then use this command to run the application for testing:
 
-`node app.js`
+`node app`
